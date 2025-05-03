@@ -1,0 +1,29 @@
+#CPU FLAGS
+*/* CPU_FLAGS_X86: aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt rdrand sha sse sse2 sse3 sse4_1 sse4_2 sse4a ssse3
+
+#KERNEL
+sys-kernel/installkernel dracut grub
+*/* dist-kernel
+
+#DESKTOP
+x11-base/xorg-server		xorg xvfb
+x11-wm/dwm			savedconfig xinerama
+x11-terms/st			savedconfig
+x11-misc/dmenu			savedconfig
+media-gfx/imv			gif jpeg png tiff jpegxl svg freeimage
+media-video/pipewire		flatpak sound-server
+www-client/firefox		hwaccel lto pgo
+
+dev-libs/libdbusmenu 		gtk3	#thunar
+
+#NVIDIA
+x11-drivers/nvidia-drivers	X 
+x11-libs/cairo			X
+media-libs/mesa			X
+media-libs/libglvnd		X
+
+#OTHER
+sys-libs/zlib			minizip
+app-text/xmlto			text
+
+

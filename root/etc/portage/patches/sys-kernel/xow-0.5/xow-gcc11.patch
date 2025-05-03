@@ -1,0 +1,21 @@
+From 99100fb52953e0218bc140bb04febd8ae51b1506 Mon Sep 17 00:00:00 2001
+From: medusalix <ss7@live.de>
+Date: Thu, 8 Apr 2021 12:18:55 +0200
+Subject: [PATCH] Add include for cstddef
+
+---
+ utils/bytes.h | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/utils/bytes.h b/utils/bytes.h
+index bc92a51..8bcc50e 100644
+--- a/utils/bytes.h
++++ b/utils/bytes.h
+@@ -18,6 +18,7 @@
+ 
+ #pragma once
+ 
++#include <cstddef>
+ #include <cstdint>
+ #include <vector>
+ #include <array>
