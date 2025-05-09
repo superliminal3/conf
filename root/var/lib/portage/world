@@ -15,6 +15,7 @@ app-misc/tmux
 app-portage/eix
 app-portage/gentoolkit
 app-shells/bash-completion
+app-text/tree
 app-text/zathura
 app-text/zathura-meta
 dev-db/postgresql
@@ -22,12 +23,14 @@ dev-java/openjdk:17
 dev-java/openjdk:21
 dev-java/openjdk:8
 dev-lang/go
+dev-libs/protobuf
 dev-util/vulkan-tools
 dev-vcs/git
 games-action/prismlauncher
 media-gfx/imv
 media-gfx/scrot
 media-sound/alsa-utils
+media-video/ffmpegthumbnailer
 media-video/mpv
 net-misc/chrony
 net-misc/dhcpcd
@@ -48,6 +51,7 @@ sys-kernel/xow
 sys-process/btop
 sys-process/dcron
 www-client/firefox
+www-client/w3m
 x11-apps/setxkbmap
 x11-apps/xinit
 x11-apps/xrandr
@@ -58,4 +62,5 @@ x11-misc/dmenu
 x11-terms/st
 x11-wm/dwm
 xfce-base/thunar
+xfce-base/tumbler
 xfce-extra/thunar-archive-plugin

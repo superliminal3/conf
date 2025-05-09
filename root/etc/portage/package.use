@@ -11,10 +11,14 @@ x11-wm/dwm			savedconfig xinerama
 x11-terms/st			savedconfig
 x11-misc/dmenu			savedconfig
 media-gfx/imv			gif jpeg png tiff jpegxl svg freeimage
+media-libs/freeimage		webp
+
 media-video/pipewire		flatpak sound-server
 www-client/firefox		hwaccel lto pgo
 
-dev-libs/libdbusmenu 		gtk3	#thunar
+dev-libs/libdbusmenu 		gtk3		#thunar
+xfce-base/tumbler		ffmpeg jpeg	#
+media-video/ffmpegthumbnailer	jpeg png	#
 
 #NVIDIA
 x11-drivers/nvidia-drivers	X 
@@ -25,5 +29,4 @@ media-libs/libglvnd		X
 #OTHER
 sys-libs/zlib			minizip
 app-text/xmlto			text
-
-
+www-client/w3m			fbcon imlib

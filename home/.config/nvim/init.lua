@@ -15,9 +15,6 @@ Plug 'ellisonleao/gruvbox.nvim'
 call plug#end()
 ]])
 
-vim.api.nvim_set_keymap('n', '<F7>', ':tabp<CR>', { noremap = true })
-vim.api.nvim_set_keymap('n', '<F8>', ':tabn<CR>', { noremap = true })
-
 require("mason").setup()
 require("mason-lspconfig").setup()
 
@@ -62,6 +59,9 @@ require("gruvbox").setup({
     contrast = "soft",
 })
 
+vim.api.nvim_set_keymap('n', '<F7>', ':tabp<CR>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<F8>', ':tabn<CR>', { noremap = true })
+
 vim.cmd([[
 set background=dark
 colorscheme gruvbox
@@ -71,6 +71,7 @@ set shiftwidth=4
 
 set relativenumber
 set cursorline
+set number
 
 set mouse=
 ]])
